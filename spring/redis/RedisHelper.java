@@ -16,8 +16,6 @@ import static java.util.concurrent.TimeUnit.SECONDS;
  * 【注：目前只是封装了Redis的String/List两种数据结构的方法，直接使用redisTemplate也支持Hash/Set/ZSet
  * 后续如果有用到Hash/Set/ZSet可以再次进行封装到该方法中；String比较特殊，使用jar包自带的StringRedisTemplate】
  *
- * @author: xushiqiang
- * @date: 2018/11/3
  */
 @SuppressWarnings("all")
 @Component("redisHelper")
